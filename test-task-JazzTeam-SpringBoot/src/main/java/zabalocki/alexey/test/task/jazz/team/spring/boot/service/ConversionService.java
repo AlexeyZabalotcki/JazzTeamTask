@@ -1,4 +1,4 @@
-package zabalocki.alexey.testtaskJazzTeamSpringBoot.service;
+package zabalocki.alexey.test.task.jazz.team.spring.boot.service;
 
 import com.ibm.icu.text.RuleBasedNumberFormat;
 import org.springframework.stereotype.Service;
@@ -12,9 +12,8 @@ public class ConversionService {
     RuleBasedNumberFormat format = new RuleBasedNumberFormat(Locale.forLanguageTag("ru"),
             RuleBasedNumberFormat.SPELLOUT);
 
-
     public String conversionToString(Long number) {
         this.number = number;
-       return format.format(number);
+        return format.format(number);
     }
 }

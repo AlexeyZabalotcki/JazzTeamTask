@@ -1,4 +1,4 @@
-package zabalocki.alexey.testtaskJazzTeamSpringBoot;
+package zabalocki.alexey.test.task.jazz.team.spring.boot;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
